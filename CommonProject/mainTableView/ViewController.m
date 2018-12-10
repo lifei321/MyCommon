@@ -20,7 +20,7 @@
 #import "SDDownLoadViewController.h"
 #import "NewsViewController.h"
 #import "FloatViewController.h"
-
+#import "YHMainTabController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -101,6 +101,11 @@
     floatmodel.descrip = @"浮动的图片";
     floatmodel.pushController = NSStringFromClass([FloatViewController class]);
     
+    mainModel *segmentmodel = [[mainModel alloc] init];
+    segmentmodel.name = @"分段选择器";
+    segmentmodel.descrip = @"分段选择器";
+    segmentmodel.pushController = NSStringFromClass([YHMainTabController class]);
+
     [self.dataSource addObject:JJLabelModel];
     [self.dataSource addObject:bannerModel];
     [self.dataSource addObject:featureModel];
@@ -111,6 +116,7 @@
     [self.dataSource addObject:SDmodel];
     [self.dataSource addObject:Newsmodel];
     [self.dataSource addObject:floatmodel];
+    [self.dataSource addObject:segmentmodel];
 
 }
 

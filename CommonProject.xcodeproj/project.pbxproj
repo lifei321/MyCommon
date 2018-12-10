@@ -112,13 +112,17 @@
 		0B8FF5C41DAF77D70034535E /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FF5B81DAF77D70034535E /* README.mdown */; };
 		0B8FF5C51DAF77D70034535E /* MBProgressHUD+BWMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FF5BD1DAF77D70034535E /* MBProgressHUD+BWMExtension.m */; };
 		0B8FF5C61DAF77D70034535E /* MBProgressHUD+BWMExtension.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8FF5BE1DAF77D70034535E /* MBProgressHUD+BWMExtension.xcassets */; };
-		0B8FF5C71DAF77D70034535E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0B8FF5BF1DAF77D70034535E /* LICENSE */; };
 		0B8FF5C81DAF77D70034535E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FF5C01DAF77D70034535E /* README.md */; };
 		0B8FF5D01DB485080034535E /* HYTabbarCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FF5CD1DB485080034535E /* HYTabbarCollectionCell.m */; };
 		0B8FF5D11DB485080034535E /* HYTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FF5CF1DB485080034535E /* HYTabbarView.m */; };
 		0B8FF5D41DB485410034535E /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FF5D31DB485410034535E /* NewsViewController.m */; };
 		0B8FF5D71DB4857E0034535E /* NewsOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FF5D61DB4857E0034535E /* NewsOneViewController.m */; };
 		0B8FF5DA1DB485C10034535E /* NewsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FF5D91DB485C10034535E /* NewsTestViewController.m */; };
+		2DDBDC2521BE1D9F00489C34 /* YHIndicatorStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBDC1921BE1D9E00489C34 /* YHIndicatorStyleViewController.m */; };
+		2DDBDC2621BE1D9F00489C34 /* YHMainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBDC1B21BE1D9E00489C34 /* YHMainTabController.m */; };
+		2DDBDC2721BE1D9F00489C34 /* YHDetailsTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBDC1C21BE1D9E00489C34 /* YHDetailsTabController.m */; };
+		2DDBDC2821BE1D9F00489C34 /* YHSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBDC2121BE1D9F00489C34 /* YHSegmentView.m */; };
+		2DDBDC2921BE1D9F00489C34 /* YHSpaceStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBDC2321BE1D9F00489C34 /* YHSpaceStyleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -313,7 +317,6 @@
 		0B8FF5BC1DAF77D70034535E /* MBProgressHUD+BWMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+BWMExtension.h"; sourceTree = "<group>"; };
 		0B8FF5BD1DAF77D70034535E /* MBProgressHUD+BWMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+BWMExtension.m"; sourceTree = "<group>"; };
 		0B8FF5BE1DAF77D70034535E /* MBProgressHUD+BWMExtension.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "MBProgressHUD+BWMExtension.xcassets"; sourceTree = "<group>"; };
-		0B8FF5BF1DAF77D70034535E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0B8FF5C01DAF77D70034535E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0B8FF5CC1DB485080034535E /* HYTabbarCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTabbarCollectionCell.h; sourceTree = "<group>"; };
 		0B8FF5CD1DB485080034535E /* HYTabbarCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTabbarCollectionCell.m; sourceTree = "<group>"; };
@@ -325,6 +328,17 @@
 		0B8FF5D61DB4857E0034535E /* NewsOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsOneViewController.m; sourceTree = "<group>"; };
 		0B8FF5D81DB485C10034535E /* NewsTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTestViewController.h; sourceTree = "<group>"; };
 		0B8FF5D91DB485C10034535E /* NewsTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTestViewController.m; sourceTree = "<group>"; };
+		2DDBDC1921BE1D9E00489C34 /* YHIndicatorStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHIndicatorStyleViewController.m; sourceTree = "<group>"; };
+		2DDBDC1A21BE1D9E00489C34 /* YHSpaceStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSpaceStyleViewController.h; sourceTree = "<group>"; };
+		2DDBDC1B21BE1D9E00489C34 /* YHMainTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMainTabController.m; sourceTree = "<group>"; };
+		2DDBDC1C21BE1D9E00489C34 /* YHDetailsTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDetailsTabController.m; sourceTree = "<group>"; };
+		2DDBDC1D21BE1D9E00489C34 /* YHIndicatorStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHIndicatorStyleViewController.h; sourceTree = "<group>"; };
+		2DDBDC1E21BE1D9E00489C34 /* YHMainTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMainTabController.h; sourceTree = "<group>"; };
+		2DDBDC2021BE1D9F00489C34 /* YHSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSegmentView.h; sourceTree = "<group>"; };
+		2DDBDC2121BE1D9F00489C34 /* YHSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSegmentView.m; sourceTree = "<group>"; };
+		2DDBDC2221BE1D9F00489C34 /* YHSegmentViewConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSegmentViewConstant.h; sourceTree = "<group>"; };
+		2DDBDC2321BE1D9F00489C34 /* YHSpaceStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSpaceStyleViewController.m; sourceTree = "<group>"; };
+		2DDBDC2421BE1D9F00489C34 /* YHDetailsTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDetailsTabController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -495,6 +509,7 @@
 		0B8FF4C31DAF6D9A0034535E /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				2DDBDC1821BE1D9E00489C34 /* SegmentView(分段选择器) */,
 				0B317C441F0E35A100B01DDA /* FloatView(浮动的图标) */,
 				0B8FF5CA1DB485080034535E /* TodayNews(今日头条) */,
 				0B8FF4C41DAF6D9A0034535E /* BannerView */,
@@ -882,7 +897,6 @@
 			isa = PBXGroup;
 			children = (
 				0B8FF5BA1DAF77D70034535E /* Example */,
-				0B8FF5BF1DAF77D70034535E /* LICENSE */,
 				0B8FF5C01DAF77D70034535E /* README.md */,
 			);
 			path = "MBProgressHUD+BWMExtension";
@@ -929,6 +943,32 @@
 				0B8FF5CF1DB485080034535E /* HYTabbarView.m */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		2DDBDC1821BE1D9E00489C34 /* SegmentView(分段选择器) */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBDC1921BE1D9E00489C34 /* YHIndicatorStyleViewController.m */,
+				2DDBDC1A21BE1D9E00489C34 /* YHSpaceStyleViewController.h */,
+				2DDBDC1B21BE1D9E00489C34 /* YHMainTabController.m */,
+				2DDBDC1C21BE1D9E00489C34 /* YHDetailsTabController.m */,
+				2DDBDC1D21BE1D9E00489C34 /* YHIndicatorStyleViewController.h */,
+				2DDBDC1E21BE1D9E00489C34 /* YHMainTabController.h */,
+				2DDBDC1F21BE1D9F00489C34 /* YHSegmentView */,
+				2DDBDC2321BE1D9F00489C34 /* YHSpaceStyleViewController.m */,
+				2DDBDC2421BE1D9F00489C34 /* YHDetailsTabController.h */,
+			);
+			path = "SegmentView(分段选择器)";
+			sourceTree = "<group>";
+		};
+		2DDBDC1F21BE1D9F00489C34 /* YHSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBDC2021BE1D9F00489C34 /* YHSegmentView.h */,
+				2DDBDC2121BE1D9F00489C34 /* YHSegmentView.m */,
+				2DDBDC2221BE1D9F00489C34 /* YHSegmentViewConstant.h */,
+			);
+			path = YHSegmentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1012,7 +1052,6 @@
 				0B8FF56B1DAF6D9A0034535E /* navi_back@2x.png in Resources */,
 				0B8FF5771DAF6D9A0034535E /* TZAssetCell.xib in Resources */,
 				0B8FF5911DAF6D9A0034535E /* unicode_to_hanyu_pinyin.txt in Resources */,
-				0B8FF5C71DAF77D70034535E /* LICENSE in Resources */,
 				0B8FF5741DAF6D9A0034535E /* preview_original_def@2x.png in Resources */,
 				0B8FF55D1DAF6D9A0034535E /* guide0.mp4 in Resources */,
 				0B8FF5721DAF6D9A0034535E /* photo_sel_previewVc@2x.png in Resources */,
@@ -1065,6 +1104,8 @@
 				0B8FF5C51DAF77D70034535E /* MBProgressHUD+BWMExtension.m in Sources */,
 				0B8FF5D41DB485410034535E /* NewsViewController.m in Sources */,
 				0B4378DB1D632661001920BE /* UIImage+Addition.m in Sources */,
+				2DDBDC2621BE1D9F00489C34 /* YHMainTabController.m in Sources */,
+				2DDBDC2921BE1D9F00489C34 /* YHSpaceStyleViewController.m in Sources */,
 				0B8FF5681DAF6D9A0034535E /* HXTagsView.m in Sources */,
 				0B8FF5511DAF6D9A0034535E /* KNJudgementTool.m in Sources */,
 				0B8FF55C1DAF6D9A0034535E /* NewFeatureCell.m in Sources */,
@@ -1072,6 +1113,7 @@
 				0B8FF5531DAF6D9A0034535E /* NSString+hash.m in Sources */,
 				0B8FF5D71DB4857E0034535E /* NewsOneViewController.m in Sources */,
 				0B317C4B1F0E35C600B01DDA /* FloatViewController.m in Sources */,
+				2DDBDC2821BE1D9F00489C34 /* YHSegmentView.m in Sources */,
 				0B8FF57B1DAF6D9A0034535E /* TZImageManager.m in Sources */,
 				0B8FF5801DAF6D9A0034535E /* TZVideoPlayerController.m in Sources */,
 				0B8FF5571DAF6D9A0034535E /* LaunchViewController.m in Sources */,
@@ -1085,6 +1127,7 @@
 				0B8FF5A01DAF73160034535E /* NSString+Zhuayi.m in Sources */,
 				0B8FF5891DAF6D9A0034535E /* pinyin.c in Sources */,
 				0B8FF57D1DAF6D9A0034535E /* TZPhotoPickerController.m in Sources */,
+				2DDBDC2721BE1D9F00489C34 /* YHDetailsTabController.m in Sources */,
 				0B8FF5D11DB485080034535E /* HYTabbarView.m in Sources */,
 				0B8FF5851DAF6D9A0034535E /* AnotherSearchViewController.m in Sources */,
 				0B4378CF1D6321B1001920BE /* UIView+WebCacheOperation.m in Sources */,
@@ -1093,6 +1136,7 @@
 				0B8FF5521DAF6D9A0034535E /* NSData+KNCache.m in Sources */,
 				0B8FF5D01DB485080034535E /* HYTabbarCollectionCell.m in Sources */,
 				0B8FF5C81DAF77D70034535E /* README.md in Sources */,
+				2DDBDC2521BE1D9F00489C34 /* YHIndicatorStyleViewController.m in Sources */,
 				0B4378C71D6321B1001920BE /* SDWebImageManager.m in Sources */,
 				0B8FF5611DAF6D9A0034535E /* XWDragCellCollectionView.m in Sources */,
 				0B8FF58E1DAF6D9A0034535E /* PinyinFormatter.m in Sources */,
